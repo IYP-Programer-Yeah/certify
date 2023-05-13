@@ -19,8 +19,7 @@ find_package(Boost 1.80.0
              COMPONENTS
                 system
                 filesystem
-				date_time
-                unit_test_framework
+		date_time
              REQUIRED)
 
 find_package (Threads)
