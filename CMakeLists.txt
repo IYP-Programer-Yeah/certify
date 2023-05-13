@@ -15,7 +15,7 @@ if (CMAKE_VERSION VERSION_LESS 3.11)
     list(INSERT CMAKE_MODULE_PATH 0 ${CMAKE_BINARY_DIR}/cmake)
 endif()
 
-find_package(Boost 1.80
+find_package(Boost 1.80.0
              COMPONENTS
                 system
                 filesystem
